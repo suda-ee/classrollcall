@@ -70,10 +70,7 @@ MainWindow::MainWindow(QWidget* parent, Qt::WFlags flags)
     title->setHorizontalTextAlignment(gics::alignHCenter);
     title->setHorizontalSizePolicy(QSizePolicy::MinimumExpanding);
     title->setColor(Qt::white);
-    QFont font = title->font();
-    font.setPointSize(30);
-    font.setBold(true);
-    title->setFont(font);
+    title->setFont(QFont(tr("Arial Unicode MS"), 30, QFont::Bold));
 
     // Create the input panel
     m_input = new InputPanel;
@@ -108,10 +105,8 @@ MainWindow::MainWindow(QWidget* parent, Qt::WFlags flags)
     aboutTitle->setHorizontalSizePolicy(QSizePolicy::MinimumExpanding);
     aboutTitle->setHorizontalTextAlignment(gics::alignHCenter);
     aboutTitle->setColor(Qt::white);
-    font = aboutTitle->font();
-    font.setPointSize(30);
-    font.setBold(true);
-    aboutTitle->setFont(font);
+    QFont font = aboutTitle->font();
+    aboutTitle->setFont(QFont(tr("Arial Unicode MS"), 30, QFont::Bold));
 
     // Create the about text
     gics::TextLabel* aboutText = new gics::TextLabel;

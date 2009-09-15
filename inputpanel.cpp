@@ -94,7 +94,7 @@ InputPanel::InputPanel(QGraphicsItem* parent)
     // Create the timeline
     m_timeline = new QTimeLine(3000, this);
     m_timeline->setCurveShape(QTimeLine::SineCurve);
-    m_timeline->setUpdateInterval(10);
+    m_timeline->setUpdateInterval(40);
 
     // Create the buttons layout
     QGraphicsLinearLayout* buttonsLayout = new QGraphicsLinearLayout(Qt::Horizontal);
