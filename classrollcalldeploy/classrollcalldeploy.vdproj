@@ -15,67 +15,91 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_018ADBC18EE445809CDAD93A24516E67"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0BB3BEFBE38A425CB49F33F8A9F0266D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C034D35FA844CEA93A89EA73D2BA672"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_22B7F12906E445BF9342DE217D8E5A24"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4BEF7FBE424D4343B9990196C52E1C09"
+        "MsmKey" = "8:_2D81340E29E74E498C3FF402BF66055C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_656644ED013A42758BAF0CB5661DDE30"
+        "MsmKey" = "8:_62AB9316418E433A8364C76AE15AD6CB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7026C08C801A45FD88A853CE534A89A5"
+        "MsmKey" = "8:_7146C55D91DE4D258C2AE8B2CD9A2228"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7646ACC051C743E9B9340EB4E989CDFA"
+        "MsmKey" = "8:_7F1A36E83D554017BE18021E47F2B4F7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_78439B67E69C429D8D5AB215D549FBC3"
+        "MsmKey" = "8:_9CCF4010657641F991CAF024E8260144"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8DCFE049C349463BB0E4DD45628FA1FC"
+        "MsmKey" = "8:_AE18ABCFD6024F3DA8689C7FB4C05091"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_90D545033C904CB4A1366E74313CFA15"
+        "MsmKey" = "8:_CC3C0B029B894610B868D1D055DC71AE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A4375F65653A417582A122ADA805CA70"
+        "MsmKey" = "8:_E8A41545014740D3880E5CC3EB50EB73"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A9D32385C6244EA7B78BBB0A95D39076"
+        "MsmKey" = "8:_ED6BA7BA5908434F9830467371E69739"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B154BE574D7B4ED591007F8051F3835B"
+        "MsmKey" = "8:_EEA2053DFD4343F082AA9AF43B12646C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EF85A3971BD04FB5B059B19A7438D869"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -104,6 +128,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -158,6 +195,66 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_018ADBC18EE445809CDAD93A24516E67"
+            {
+            "SourcePath" = "8:..\\dist\\QtGui4.dll"
+            "TargetName" = "8:QtGui4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BB3BEFBE38A425CB49F33F8A9F0266D"
+            {
+            "SourcePath" = "8:..\\dist\\QtOpenGL4.dll"
+            "TargetName" = "8:QtOpenGL4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C034D35FA844CEA93A89EA73D2BA672"
+            {
+            "SourcePath" = "8:..\\dist\\SampleClassroom.xml"
+            "TargetName" = "8:SampleClassroom.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_22B7F12906E445BF9342DE217D8E5A24"
             {
             "SourcePath" = "8:..\\resources\\logozzz.jpg"
@@ -178,89 +275,9 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4BEF7FBE424D4343B9990196C52E1C09"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D81340E29E74E498C3FF402BF66055C"
             {
-            "SourcePath" = "8:..\\dist-mingw\\QtSvg4.dll"
-            "TargetName" = "8:QtSvg4.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_656644ED013A42758BAF0CB5661DDE30"
-            {
-            "SourcePath" = "8:..\\dist-mingw\\mingwm10.dll"
-            "TargetName" = "8:mingwm10.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7026C08C801A45FD88A853CE534A89A5"
-            {
-            "SourcePath" = "8:..\\dist-mingw\\classrollcall.exe"
-            "TargetName" = "8:classrollcall.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7646ACC051C743E9B9340EB4E989CDFA"
-            {
-            "SourcePath" = "8:..\\dist-mingw\\QtXml4.dll"
-            "TargetName" = "8:QtXml4.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_78439B67E69C429D8D5AB215D549FBC3"
-            {
-            "SourcePath" = "8:..\\dist-mingw\\QtCore4.dll"
+            "SourcePath" = "8:..\\dist\\QtCore4.dll"
             "TargetName" = "8:QtCore4.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
@@ -278,10 +295,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DCFE049C349463BB0E4DD45628FA1FC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62AB9316418E433A8364C76AE15AD6CB"
             {
-            "SourcePath" = "8:..\\dist-mingw\\SampleClassroom.xml"
-            "TargetName" = "8:SampleClassroom.xml"
+            "SourcePath" = "8:..\\dist\\QtSvg4.dll"
+            "TargetName" = "8:QtSvg4.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Condition" = "8:"
@@ -298,10 +315,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_90D545033C904CB4A1366E74313CFA15"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7146C55D91DE4D258C2AE8B2CD9A2228"
             {
-            "SourcePath" = "8:..\\dist-mingw\\QtOpenGL4.dll"
-            "TargetName" = "8:QtOpenGL4.dll"
+            "SourcePath" = "8:..\\dist\\camp.dll"
+            "TargetName" = "8:camp.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Condition" = "8:"
@@ -318,10 +335,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A4375F65653A417582A122ADA805CA70"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7F1A36E83D554017BE18021E47F2B4F7"
             {
-            "SourcePath" = "8:..\\dist-mingw\\libcamp.dll"
-            "TargetName" = "8:libcamp.dll"
+            "SourcePath" = "8:..\\dist\\gics.dll"
+            "TargetName" = "8:gics.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Condition" = "8:"
@@ -338,10 +355,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A9D32385C6244EA7B78BBB0A95D39076"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9CCF4010657641F991CAF024E8260144"
             {
-            "SourcePath" = "8:..\\dist-mingw\\libgics.dll"
-            "TargetName" = "8:libgics.dll"
+            "SourcePath" = "8:..\\dist\\QtXml4.dll"
+            "TargetName" = "8:QtXml4.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Condition" = "8:"
@@ -358,10 +375,90 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B154BE574D7B4ED591007F8051F3835B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AE18ABCFD6024F3DA8689C7FB4C05091"
             {
-            "SourcePath" = "8:..\\dist-mingw\\QtGui4.dll"
-            "TargetName" = "8:QtGui4.dll"
+            "SourcePath" = "8:..\\dist\\08电气电路2.xml"
+            "TargetName" = "8:08电气电路2.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CC3C0B029B894610B868D1D055DC71AE"
+            {
+            "SourcePath" = "8:..\\dist\\classrollcall.exe"
+            "TargetName" = "8:classrollcall.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E8A41545014740D3880E5CC3EB50EB73"
+            {
+            "SourcePath" = "8:..\\dist\\文正08通信信号.xml"
+            "TargetName" = "8:文正08通信信号.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED6BA7BA5908434F9830467371E69739"
+            {
+            "SourcePath" = "8:..\\dist\\classrollcall-o.exe"
+            "TargetName" = "8:classrollcall-o.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EF85A3971BD04FB5B059B19A7438D869"
+            {
+            "SourcePath" = "8:..\\dist\\文正08信息.xml"
+            "TargetName" = "8:文正08信息.xml"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Condition" = "8:"
@@ -435,7 +532,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:点名程序"
         "ProductCode" = "8:{BDA2F417-F873-44AD-BD0E-E9DF9FB9D725}"
-        "PackageCode" = "8:{AE5936ED-F51E-4924-A1D4-AC4775CF1B81}"
+        "PackageCode" = "8:{AD49F1FF-3B3B-46FC-8AC9-2932B15BB5A3}"
         "UpgradeCode" = "8:{0A3EB98F-D68A-4451-A0C0-EB5F5F3546F2}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
@@ -451,7 +548,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:http://www.suda.edu.cn/"
-        "ARPPRODUCTICON" = "8:_7026C08C801A45FD88A853CE534A89A5"
+        "ARPPRODUCTICON" = "8:_CC3C0B029B894610B868D1D055DC71AE"
         "ARPIconIndex" = "3:102"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -554,7 +651,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_60F8A5AF916E4509BC886522A9981D7D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE36BB025F3F4CA78C2082B8AE50B808"
             {
             "Name" = "8:点名程序"
             "Arguments" = "8:"
@@ -562,10 +659,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:102"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_7026C08C801A45FD88A853CE534A89A5"
+            "Target" = "8:_CC3C0B029B894610B868D1D055DC71AE"
             "Folder" = "8:_A2354ADFCBA54525B54B63285319D2C4"
             "WorkingFolder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Icon" = "8:_7026C08C801A45FD88A853CE534A89A5"
+            "Icon" = "8:_CC3C0B029B894610B868D1D055DC71AE"
             "Feature" = "8:"
             }
         }
@@ -974,6 +1071,20 @@
         }
         "MergeModule"
         {
+            "{CEE29DC0-9FBA-4B99-8D47-5BC643D9B626}:_EEA2053DFD4343F082AA9AF43B12646C"
+            {
+            "UseDynamicProperties" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:C:\\Program Files\\Common Files\\Merge Modules\\Microsoft_VC90_CRT_x86.msm"
+                "Properties"
+                {
+                }
+            "LanguageId" = "3:0"
+            "Exclude" = "11:FALSE"
+            "Folder" = "8:"
+            "Feature" = "8:"
+            "IsolateTo" = "8:"
+            }
         }
         "ProjectOutput"
         {

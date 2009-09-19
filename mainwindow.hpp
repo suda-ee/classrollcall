@@ -32,6 +32,11 @@
 #include <QMainWindow>
 #include <gics/textlabel.hpp>
 
+#ifdef Q_OS_WIN32
+#include <windows.h>
+#include <Wincrypt.h>
+#endif
+
 
 class View;
 class InputPanel;
@@ -55,6 +60,7 @@ public:
      * \param flags Window flags (0 by default)
      */
     MainWindow(QWidget* parent = 0, Qt::WFlags flags = 0);
+    ~MainWindow();
 
 private:
 
@@ -100,6 +106,12 @@ private:
     QString m_classname;
     QList<QString> m_sids;
     QList<QString> m_names;
+#ifdef Q_OS_WIN32
+    //--------------------------------------------------------------------
+    // Declare and initialize variables.
+
+    HCRYPTPROV   hCryptProv;
+#endif
 };
 
 #endif // MAINWINDOW_HPP

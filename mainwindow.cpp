@@ -49,11 +49,6 @@
 #include <QDateTime>
 #include <QPixmap>
 
-#ifdef Q_OS_WIN32
-#include <windows.h>
-#include <Wincrypt.h>
-#endif
-
 
 //-------------------------------------------------------------------------------------------------
 MainWindow::MainWindow(QWidget* parent, Qt::WFlags flags)
@@ -192,6 +187,18 @@ MainWindow::MainWindow(QWidget* parent, Qt::WFlags flags)
     connect(m_input, SIGNAL(valueChanged(double)), this, SLOT(refreshhot(double)));
     connect(m_input, SIGNAL(oneLucky()), this, SLOT(popOne()));
     qsrand(QDateTime::currentDateTime().toTime_t());
+
+#ifdef Q_OS_WIN32
+    if (!CryptAcquireContext(&hCryptProv, NULL, NULL, PROV_RSA_FULL, 0))
+	CryptAcquireContext(&hCryptProv, NULL, NULL, PROV_RSA_FULL, CRYPT_NEWKEYSET);
+#endif
+}
+
+MainWindow::~MainWindow()
+{
+#ifdef Q_OS_WIN32
+    CryptReleaseContext(hCryptProv, 0);
+#endif
 }
 
 //-------------------------------------------------------------------------------------------------
@@ -265,10 +272,7 @@ void MainWindow::refreshhot(double value)
     //--------------------------------------------------------------------
     // Declare and initialize variables.
 
-    HCRYPTPROV   hCryptProv;
     BYTE         pbData[2];
-
-    CryptAcquireContext(&hCryptProv, NULL, NULL, PROV_RSA_FULL, 0);
     
     CryptGenRandom(hCryptProv, 2, pbData);
     quint16 randint = *((quint16 *) pbData) & RAND_MAX;
