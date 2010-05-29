@@ -48,6 +48,7 @@
 #include <QDomElement>
 #include <QDateTime>
 #include <QPixmap>
+#include <boost/numeric/conversion/converter.hpp>
 
 
 //-------------------------------------------------------------------------------------------------
@@ -106,7 +107,7 @@ MainWindow::MainWindow(QWidget* parent, Qt::WFlags flags)
     // Create the about text
     gics::TextLabel* aboutText = new gics::TextLabel;
     aboutText->setColor(Qt::white);
-    aboutText->setText(tr("三天不点名，全都跑没影。\n\n点将机 0.1.1.\n\nCopyright 2009 caiwenfeng at suda dot edu dot cn.\n\nBase one the demo app of Tegesoft."));
+    aboutText->setText(tr("三天不点名，全都跑没影。\n\n点将机 0.2.2.\n\nCopyright 2010 caiwenfeng at suda dot edu dot cn.\n\nBase one the demo app of Tegesoft."));
     aboutText->setHorizontalTextAlignment(gics::alignHCenter);
 
     // Create the "close about" button
@@ -268,6 +269,9 @@ void MainWindow::parserClassRoom()
 
 void MainWindow::refreshhot(double value)
 {
+    using namespace boost::numeric;
+    typedef converter<int,double,conversion_traits<int,double>,
+            def_overflow_handler, RoundEven<double>> HZround;
 #ifdef Q_OS_WIN32
     //--------------------------------------------------------------------
     // Declare and initialize variables.
@@ -276,9 +280,9 @@ void MainWindow::refreshhot(double value)
     
     CryptGenRandom(hCryptProv, 2, pbData);
     quint16 randint = *((quint16 *) pbData) & RAND_MAX;
-    m_theone = (m_sids.size() - 1.) * randint / RAND_MAX;
+    m_theone = HZround::convert((m_sids.size() - 1.) * randint / RAND_MAX);
 #else
-    m_theone = (m_sids.size() - 1.) * qrand() / RAND_MAX;
+    m_theone = HZround::convert((m_sids.size() - 1.) * qrand() / RAND_MAX);
 #endif
     if (m_theone < m_sids.size())
     {

@@ -34,8 +34,8 @@
 #include <QApplication>
 #include "mainwindow.hpp"
 #include <QTextCodec>
-#include <QLocale>
-
+//#include <QtPlugin>
+#include <QPluginLoader>
 
 //-------------------------------------------------------------------------------------------------
 int main(int argc, char *argv[])
@@ -45,9 +45,13 @@ int main(int argc, char *argv[])
         QApplication::setGraphicsSystem("raster");
     #endif
 
+    //Q_IMPORT_PLUGIN(qcncodecs)
+    //QPluginLoader cncodec(qApp->applicationDirPath() + "plugins/codecs/qcncodecs4.dll");
+    //cncodec.load();
+    QTextCodec::setCodecForTr(QTextCodec::codecForName("GBK"));
+
     QApplication application(argc, argv);
     QTextCodec::setCodecForTr(QTextCodec::codecForLocale());
-    //QLocale::setDefault(QLocale(QLocale::Chinese, QLocale::China));
     MainWindow window;
     window.showFullScreen();
     return application.exec();
