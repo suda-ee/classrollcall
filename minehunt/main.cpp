@@ -57,15 +57,17 @@ int main(int argc, char *argv[])
 #ifdef Q_OS_SYMBIAN
     canvas.setResizeMode(QDeclarativeView::SizeRootObjectToView);
 #endif
+    canvas.setResizeMode(QDeclarativeView::SizeRootObjectToView);
     canvas.engine()->rootContext()->setContextObject(game);        
-    canvas.setSource(QString("minehunt.qml"));
+    canvas.setSource(QUrl("qrc:/minehunt.qml"));
     QObject::connect(canvas.engine(), SIGNAL(quit()), &app, SLOT(quit()));
     
 #ifdef Q_OS_SYMBIAN
     canvas.showFullScreen();
 #else
-    canvas.setGeometry(QRect(100, 100, 450, 450));
-    canvas.show();
+    // canvas.setGeometry(QRect(32, 32, 700, 700));
+    // canvas.show();
+    canvas.showFullScreen();
 #endif
     return app.exec();
 }

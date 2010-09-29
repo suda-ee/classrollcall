@@ -1,23 +1,19 @@
 TEMPLATE = app
 TARGET  = minehunt
-QT += declarative
+QT += declarative xml
 CONFIG += qt plugin
+# CONFIG += console
 
 # Input
 HEADERS += minehunt.h
 SOURCES += main.cpp minehunt.cpp
 
 sources.files = minehunt.qml minehunt.pro MinehuntCore
-sources.path = $$[QT_INSTALL_DEMOS]/declarative/minehunt
-target.path = $$[QT_INSTALL_DEMOS]/declarative/minehunt
 
-INSTALLS = sources target
+INSTALLS = target
 
-symbian:{
-    TARGET.EPOCALLOWDLLDATA = 1
-    TARGET.EPOCHEAPSIZE = 0x20000 0x2000000
-    include($$QT_SOURCE_TREE/demos/symbianpkgrules.pri)
-    qmlminehuntfiles.sources = MinehuntCore minehunt.qml
-    DEPLOYMENT = qmlminehuntfiles
-}
- 
+RESOURCES += \
+    minehunt.qrc
+win32:INCLUDEPATH += "I:/boost_1_42_0"
+win32:LIBS += -lAdvapi32
+win32:RC_FILE = minehunt.rc

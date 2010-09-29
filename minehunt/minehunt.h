@@ -42,6 +42,11 @@
 
 #include <qdeclarative.h>
 
+#ifdef Q_OS_WIN32
+#include <windows.h>
+#include <Wincrypt.h>
+#endif
+
 class TileData : public QObject
 {
     Q_OBJECT
@@ -84,6 +89,7 @@ class MinehuntGame : public QObject
     Q_OBJECT
 public:
     MinehuntGame();
+    ~MinehuntGame();
 
     Q_PROPERTY(QDeclarativeListProperty<TileData> tiles READ tiles CONSTANT)
     QDeclarativeListProperty<TileData> tiles();
@@ -95,7 +101,7 @@ public:
     bool hasWon() {return won;}
 
     Q_PROPERTY(int numMines READ numMines NOTIFY numMinesChanged)
-    int numMines() const{return nMines;}
+    int numMines() const{return m_seqIdSample.size();}
 
     Q_PROPERTY(int numFlags READ numFlags NOTIFY numFlagsChanged)
     int numFlags() const{return nFlags;}
@@ -114,9 +120,12 @@ signals:
 
 private:
     bool onBoard( int r, int c ) const { return r >= 0 && r < numRows && c >= 0 && c < numCols; }
-    TileData *tile( int row, int col ) { return onBoard(row, col) ? _tiles[col+numRows*row] : 0; }
+    TileData *tile( int row, int col ) { return onBoard(row, col) ? _tiles[col+numCols*row] : 0; }
     int getHint(int row, int col);
     void setPlaying(bool b){if(b==playing) return; playing=b; emit isPlayingChanged();}
+
+    void parserClassRoom();
+    void popOne();
 
     QList<TileData *> _tiles;
     int numCols;
@@ -126,4 +135,16 @@ private:
     int remaining;
     int nMines;
     int nFlags;
+
+    QList<int> m_seqIdPool;  ///< @brief the set of seq ids
+    QList<int> m_seqIdSample;  ///< @brief the sample set of seq ids
+    QString m_classname;
+    QList<QString> m_sids;
+    QList<QString> m_names;
+#ifdef Q_OS_WIN32
+    //--------------------------------------------------------------------
+    // Declare and initialize variables.
+
+    HCRYPTPROV   hCryptProv;
+#endif
 };

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>minehunt.qml</file>
+        <file>MinehuntCore/Explosion.qml</file>
+        <file>MinehuntCore/qmldir</file>
+        <file>MinehuntCore/Tile.qml</file>
+        <file>MinehuntCore/pics/back.png</file>
+        <file>MinehuntCore/pics/bomb.png</file>
+        <file>MinehuntCore/pics/bomb-color.png</file>
+        <file>MinehuntCore/pics/face-sad.png</file>
+        <file>MinehuntCore/pics/face-smile.png</file>
+        <file>MinehuntCore/pics/face-smile-big.png</file>
+        <file>MinehuntCore/pics/flag.png</file>
+        <file>MinehuntCore/pics/flag-color.png</file>
+        <file>MinehuntCore/pics/front.png</file>
+        <file>MinehuntCore/pics/No-Ones-Laughing-3.jpg</file>
+        <file>MinehuntCore/pics/quit.png</file>
+        <file>MinehuntCore/pics/star.png</file>
+    </qresource>
+</RCC>

@@ -265,6 +265,7 @@ void MainWindow::parserClassRoom()
 	    m_names.append(theelem.text());
         }
     }
+    delete classfile;
 }
 
 void MainWindow::refreshhot(double value)
