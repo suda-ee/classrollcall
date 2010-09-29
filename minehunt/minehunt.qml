@@ -47,6 +47,8 @@ Item {
     property int clickx: 0
     property int clicky: 0
 
+    property bool on: false
+
     width: 1000; height: 750
 
     Image { id: image2; source: "MinehuntCore/pics/No-Ones-Laughing-3.jpg"; anchors.fill: parent; fillMode: Image.Tile
@@ -103,6 +105,34 @@ Item {
         anchors.topMargin: 4
         font.pointSize: 48
         verticalAlignment: "AlignVCenter"
+        MouseArea {
+            id: aboutregion; anchors.fill: parent;
+            onClicked: toolbar.toggle()
+        }
+    }
+
+    Text {
+        id: toolbar
+        color: "black"
+        x: 150; y: 4;
+        width: 640; height: 64
+        opacity: 0
+        font.bold: true
+        font.pointSize: 16
+        text: "Copyright (C) 2010. Wenfeng CAI (xooz at live dot com).\nCopyright (C) 2010. Nokia Corporation."
+        function toggle() {
+            on = on==true?false:true
+        }
+        states : State {
+            name: "shown"
+            when: on
+            PropertyChanges{target:toolbar; y: 700; opacity: 1}
+        }
+        transitions: [
+            Transition {
+                NumberAnimation { properties: "y,opacity"; duration: 500 }
+            }
+        ]
     }
 
     Grid {
