@@ -106,6 +106,9 @@ public:
     Q_PROPERTY(int numFlags READ numFlags NOTIFY numFlagsChanged)
     int numFlags() const{return nFlags;}
 
+    Q_PROPERTY(QString txtLucky READ txtLucky NOTIFY txtLuckyChanged)
+    QString txtLucky() const{return m_txtLucky;}
+
 public slots:
     Q_INVOKABLE bool flip(int row, int col);
     Q_INVOKABLE bool flag(int row, int col);
@@ -117,6 +120,7 @@ signals:
     void hasWonChanged();
     void numMinesChanged();
     void numFlagsChanged();
+    void txtLuckyChanged();
 
 private:
     bool onBoard( int r, int c ) const { return r >= 0 && r < numRows && c >= 0 && c < numCols; }
@@ -141,6 +145,7 @@ private:
     QString m_classname;
     QList<QString> m_sids;
     QList<QString> m_names;
+    QString m_txtLucky;
 #ifdef Q_OS_WIN32
     //--------------------------------------------------------------------
     // Declare and initialize variables.

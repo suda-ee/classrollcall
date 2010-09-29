@@ -40,6 +40,7 @@
 ****************************************************************************/
 
 #include <QtGui/QApplication>
+//#include <QTextCodec>
 #include <QtDeclarative/QDeclarativeView>
 #include <QtDeclarative/QDeclarativeContext>
 #include <QtDeclarative/QDeclarativeEngine>
@@ -48,6 +49,7 @@
 
 int main(int argc, char *argv[])
 {
+    //QTextCodec::setCodecForTr(QTextCodec::codecForName("GBK"));
     QApplication app(argc, argv);
     QDeclarativeView canvas;
     

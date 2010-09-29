@@ -72,7 +72,8 @@ QDeclarativeListProperty<TileData> MinehuntGame::tiles(){
 }
 
 MinehuntGame::MinehuntGame()
-: numCols(24), numRows(15), playing(true), won(false)
+: numCols(24), numRows(15), playing(true), won(false),
+    m_txtLucky("0000000000 Some One")
 {
     setObjectName("mainObject");
     srand(QTime(0,0,0).secsTo(QTime::currentTime()));
@@ -283,6 +284,9 @@ void MinehuntGame::popOne()
     {
 	qDebug()<<"Lucky: "<<m_sids.at(m_seqIdPool.at(theone))
             <<m_names.at(m_seqIdPool.at(theone));
+        m_txtLucky = m_sids.at(m_seqIdPool.at(theone))
+            + m_names.at(m_seqIdPool.at(theone));
+        emit txtLuckyChanged();
     }
     if (m_seqIdPool.size() > 0)
     {
