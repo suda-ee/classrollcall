@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/skins" >
+        <file>logozzz.png</file>
+        <file>logozzz.svg</file>
+    </qresource>
+</RCC>
