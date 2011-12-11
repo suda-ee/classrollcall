@@ -21,6 +21,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_02B4C815187A4C5CB51129EED561BCA2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0BAA0E0CD1AB4B829F822D38A2DE4C9C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0BB3BEFBE38A425CB49F33F8A9F0266D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,6 +40,18 @@
         "Entry"
         {
         "MsmKey" = "8:_0C034D35FA844CEA93A89EA73D2BA672"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_11932BA3F4794613B45EDACC9E0D423A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1C417050A475437989D505940D608183"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,7 +69,25 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_31164B46CB5D4B3391250EAC31E3191E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4CDD4562BAF341D1A7AD3FBA55809D3C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_62AB9316418E433A8364C76AE15AD6CB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_69A22E2EF54C4969A168C32BF476B9A0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -63,19 +105,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8F3B38DF680C4780A90169053670DB39"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_98C83B4E03C34869AECDCBD4E9153D92"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_9CCF4010657641F991CAF024E8260144"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9DB3B63F8BEF41E380D8E232991B498F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BF0B44FA25434F4F88865482058992A7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C831B712736C4D28B8D8D737CC6EFA7E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C83213D416AB4DF3BD36063E3C310998"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -88,6 +142,12 @@
         "Entry"
         {
         "MsmKey" = "8:_EEA2053DFD4343F082AA9AF43B12646C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F701E6FC86BB4F71A1E3EFB67458D60F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -203,6 +263,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_02B4C815187A4C5CB51129EED561BCA2"
+            {
+            "SourcePath" = "8:..\\dist\\文正10微电子.xml"
+            "TargetName" = "8:文正10微电子.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BAA0E0CD1AB4B829F822D38A2DE4C9C"
+            {
+            "SourcePath" = "8:..\\dist\\Qt\\labs\\particles\\qmlparticlesplugin.dll"
+            "TargetName" = "8:qmlparticlesplugin.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_C68315633B3B4DB6AC1BB8E7C6FEA723"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BB3BEFBE38A425CB49F33F8A9F0266D"
             {
             "SourcePath" = "8:..\\dist\\QtOpenGL4.dll"
@@ -229,6 +329,46 @@
             "TargetName" = "8:SampleClassroom.xml"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_11932BA3F4794613B45EDACC9E0D423A"
+            {
+            "SourcePath" = "8:..\\dist\\codecs\\qcncodecs4.dll"
+            "TargetName" = "8:qcncodecs4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_BF913849E6244FC8B7D5AC04958FD2A3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C417050A475437989D505940D608183"
+            {
+            "SourcePath" = "8:..\\dist\\Qt\\labs\\particles\\qmldir"
+            "TargetName" = "8:qmldir"
+            "Tag" = "8:"
+            "Folder" = "8:_C68315633B3B4DB6AC1BB8E7C6FEA723"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -283,12 +423,72 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_31164B46CB5D4B3391250EAC31E3191E"
+            {
+            "SourcePath" = "8:..\\dist\\文正10通信.xml"
+            "TargetName" = "8:文正10通信.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4CDD4562BAF341D1A7AD3FBA55809D3C"
+            {
+            "SourcePath" = "8:..\\dist\\QtNetwork4.dll"
+            "TargetName" = "8:QtNetwork4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62AB9316418E433A8364C76AE15AD6CB"
             {
             "SourcePath" = "8:..\\dist\\QtSvg4.dll"
             "TargetName" = "8:QtSvg4.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69A22E2EF54C4969A168C32BF476B9A0"
+            {
+            "SourcePath" = "8:..\\dist\\imageformats\\qjpeg4.dll"
+            "TargetName" = "8:qjpeg4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_A1E35CE219E4477E85BFEEAB7346CD25"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -343,46 +543,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8F3B38DF680C4780A90169053670DB39"
-            {
-            "SourcePath" = "8:..\\dist\\文正09微电子-通信信号.xml"
-            "TargetName" = "8:文正09微电子-通信信号.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_98C83B4E03C34869AECDCBD4E9153D92"
-            {
-            "SourcePath" = "8:..\\dist\\文正09通信工程.xml"
-            "TargetName" = "8:文正09通信工程.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9CCF4010657641F991CAF024E8260144"
             {
             "SourcePath" = "8:..\\dist\\QtXml4.dll"
@@ -403,10 +563,110 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9DB3B63F8BEF41E380D8E232991B498F"
+            {
+            "SourcePath" = "8:..\\dist\\QtSql4.dll"
+            "TargetName" = "8:QtSql4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BF0B44FA25434F4F88865482058992A7"
+            {
+            "SourcePath" = "8:..\\dist\\minehunt.exe"
+            "TargetName" = "8:minehunt.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C831B712736C4D28B8D8D737CC6EFA7E"
+            {
+            "SourcePath" = "8:..\\dist\\QtScript4.dll"
+            "TargetName" = "8:QtScript4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C83213D416AB4DF3BD36063E3C310998"
+            {
+            "SourcePath" = "8:..\\dist\\QtDeclarative4.dll"
+            "TargetName" = "8:QtDeclarative4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CC3C0B029B894610B868D1D055DC71AE"
             {
             "SourcePath" = "8:..\\dist\\classrollcall.exe"
             "TargetName" = "8:classrollcall.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F701E6FC86BB4F71A1E3EFB67458D60F"
+            {
+            "SourcePath" = "8:..\\dist\\QtXmlPatterns4.dll"
+            "TargetName" = "8:QtXmlPatterns4.dll"
             "Tag" = "8:"
             "Folder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Condition" = "8:"
@@ -449,6 +709,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_CE1C02A3D979468B9DF79EE160149DB3"
+                    {
+                    "Name" = "8:点名程序"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_628E756E46ED46FD96A0A2DA101059F3"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_F18F053D8045448AB7A6A3C9A9D319B4"
@@ -461,6 +732,61 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A1E35CE219E4477E85BFEEAB7346CD25"
+                    {
+                    "Name" = "8:imageformats"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_7C6367B6BB04490EB99AD7DCCA37CA4C"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B1FCF5E7577148968669E5E0D0272E54"
+                    {
+                    "Name" = "8:Qt"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_1188E1C4A4EE4D759B366AE9595F43C0"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_34E426997B4F4CA0806951016EE39288"
+                            {
+                            "Name" = "8:labs"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_2A6F1CF8C79E4B449453912377AF9BC2"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_C68315633B3B4DB6AC1BB8E7C6FEA723"
+                                    {
+                                    "Name" = "8:particles"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_C7DE37E85F1242C68A9470187F65D395"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_BF913849E6244FC8B7D5AC04958FD2A3"
+                    {
+                    "Name" = "8:codecs"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_69FFB1862E0245A4B02701C5C311AFF7"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -479,14 +805,14 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:点名程序"
-        "ProductCode" = "8:{971337E3-8FDC-4765-B91E-488D24077696}"
-        "PackageCode" = "8:{3A72CC3F-4D94-49A9-B148-051C1A9AC462}"
+        "ProductCode" = "8:{93D6DDE8-D022-4DBD-ABE4-75E49B2D4564}"
+        "PackageCode" = "8:{78DDF88F-6CC4-48D4-925E-E6498F05B071}"
         "UpgradeCode" = "8:{0A3EB98F-D68A-4451-A0C0-EB5F5F3546F2}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.2.3"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:苏州大学"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -601,16 +927,30 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE36BB025F3F4CA78C2082B8AE50B808"
             {
-            "Name" = "8:点名程序"
+            "Name" = "8:生死时速"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:102"
             "Transitive" = "11:FALSE"
             "Target" = "8:_CC3C0B029B894610B868D1D055DC71AE"
-            "Folder" = "8:_A2354ADFCBA54525B54B63285319D2C4"
+            "Folder" = "8:_CE1C02A3D979468B9DF79EE160149DB3"
             "WorkingFolder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
             "Icon" = "8:_CC3C0B029B894610B868D1D055DC71AE"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E0F79E73CE6447BB827A7C0ADC0C661D"
+            {
+            "Name" = "8:炸弹超人"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:102"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_BF0B44FA25434F4F88865482058992A7"
+            "Folder" = "8:_CE1C02A3D979468B9DF79EE160149DB3"
+            "WorkingFolder" = "8:_F18F053D8045448AB7A6A3C9A9D319B4"
+            "Icon" = "8:_BF0B44FA25434F4F88865482058992A7"
             "Feature" = "8:"
             }
         }
